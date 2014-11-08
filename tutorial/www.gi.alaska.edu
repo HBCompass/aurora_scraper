@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+<title>Aurora Forecast | Geophysical Institute</title>
+<link type="text/css" rel="stylesheet" media="all" href="http://www.gi.alaska.edu/files/css/css_5f50376c18351cf739e71acbc707aefa.css" />
+<script type="text/javascript" src="http://www.gi.alaska.edu/files/js/js_7be0a567887bbdcee414978a02ab9cec.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","spamspan":{"m":"spamspan","u":"u","d":"d","h":"h","t":"t"},"apachesolr_autocomplete":{"path":"\/apachesolr_autocomplete"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"lightbox2":{"rtl":0,"file_path":"\/(\\w\\w\/)files","default_image":"\/sites\/www.gi.alaska.edu\/modules\/lightbox2\/images\/brokenimage.jpg","border_size":10,"font_color":"000","box_color":"fff","top_position":"","overlay_opacity":"0.8","overlay_color":"000","disable_close_click":true,"resize_sequence":0,"resize_speed":400,"fade_in_speed":400,"slide_down_speed":600,"use_alt_layout":false,"disable_resize":false,"disable_zoom":false,"force_show_nav":false,"show_caption":true,"loop_items":false,"node_link_text":"View Image Details","node_link_target":false,"image_count":"Image !current of !total","video_count":"Video !current of !total","page_count":"Page !current of !total","lite_press_x_close":"press \u003ca href=\"#\" onclick=\"hideLightbox(); return FALSE;\"\u003e\u003ckbd\u003ex\u003c\/kbd\u003e\u003c\/a\u003e to close","download_link_text":"","enable_login":false,"enable_contact":false,"keys_close":"c x 27","keys_previous":"p 37","keys_next":"n 39","keys_zoom":"z","keys_play_pause":"32","display_image_size":"original","image_node_sizes":"()","trigger_lightbox_classes":"","trigger_lightbox_group_classes":"","trigger_slideshow_classes":"","trigger_lightframe_classes":"","trigger_lightframe_group_classes":"","custom_class_handler":0,"custom_trigger_classes":"","disable_for_gallery_lists":true,"disable_for_acidfree_gallery_lists":true,"enable_acidfree_videos":true,"slideshow_interval":5000,"slideshow_automatic_start":true,"slideshow_automatic_exit":true,"show_play_pause":true,"pause_on_next_click":false,"pause_on_previous_click":true,"loop_slides":false,"iframe_width":600,"iframe_height":400,"iframe_border":1,"enable_video":false}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+
+    $(document).ready(function() {
+        $('ul.sf-menu').superfish({
+            delay:       700,                            // one second delay on mouseout
+            animation:   {opacity:'show'},  // fade-in and slide-down animation
+            speed:       'fast',                          // faster animation speed
+            autoArrows:  false,                           // disable generation of arrow mark-up
+            dropShadows: false                            // disable drop shadows
+        });
+        $('ul.paul-menu').superfish({
+            delay:       700,                            // one second delay on mouseout
+            animation:   {opacity:'show'},  // fade-in and slide-down animation
+            speed:       'fast',                          // faster animation speed
+            autoArrows:  false,                           // disable generation of arrow mark-up
+            dropShadows: false                            // disable drop shadows
+        });
+        $('#accordion').accordion();
+    });
+
+</script>
+
+</head>
+<body>
+  <div id="outer-container">
+    <div id="container">
+      <div id="header">
+        <div id="site-info">
+          <div id="site-title"><h1><a href="/"></a></h1></div>
+          <div id="slogan"></div>
+          <div id="search-box"><form action="/AuroraForecast"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text apachesolr-autocomplete unprocessed" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-334c3f3013250a8eefeaa7946cdab78c" value="form-334c3f3013250a8eefeaa7946cdab78c"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+</div>
+      <div id="nav2">
+<ul class="sf-menu">
+<li class="leaf first"><a href="https://patch.gi.alaska.edu" title="">MyGI</a></li>
+<li class="leaf"><a href="/dir" title="">Directory</a></li>
+<li class="leaf"><a href="http://www.gi.alaska.edu/AlaskaScienceForum/" title="">Alaska Science Forum</a></li>
+<li class="leaf"><a href="http://www2.gi.alaska.edu/Quarterly/" title="">GI Quarterly Report</a></li>
+<li class="leaf"><a href="http://gi.alaska.edu/node/1620" title="">GI Annual Report</a></li>
+<li class="leaf"><a href="http://www.uaf.edu/scienceforalaska/" title="">Science for Alaska</a></li>
+<li class="leaf last"><a href="/user/login" title="">Staff Area</a></li>
+</ul>
+</div>
+<div id="nav">
+<ul class="sf-menu">
+<li class="leaf first"><a href="/" title="">HOME</a></li>
+<li class="expanded active-trail"><a href="/PublicInformation" title="">PUBLIC INFORMATION</a><ul class="menu" style="visibility: hidden;"><li class="leaf first active-trail"><a href="/AuroraForecast" title="" class="active">Aurora Forecast</a></li>
+<li class="leaf"><a href="/AlaskaScienceForum" title="">Alaska Science Forum</a></li>
+<li class="leaf"><a href="/admin/design" title="">Design Services</a></li>
+<li class="collapsed"><a href="/admin/outreach" title="GI Education Outreach">GI Education Outreach</a></li>
+<li class="leaf"><a href="http://www2.gi.alaska.edu/Quarterly/" title="">GI Quarterly Newsletter</a></li>
+<li class="leaf"><a href="/PublicInformation" title="">Press Releases</a></li>
+<li class="leaf last"><a href="/PublicInformation" title="">Public Information</a></li>
+</ul></li>
+<li class="expanded"><a href="/research" title="">RESEARCH</a><ul class="menu" style="visibility: hidden;"><li class="leaf first"><a href="/research/atmo" title="Atmospheric Sciences at the GI">Atmospheric Sciences</a></li>
+<li class="leaf"><a href="/Education" title="Education Group">Education</a></li>
+<li class="leaf"><a href="/node/1253" title="Faculty">Faculty</a></li>
+<li class="leaf"><a href="/research/remotesensing" title="Remote Sensing">Remote Sensing</a></li>
+<li class="leaf"><a href="/research/seismo" title="Seismology">Seismology</a></li>
+<li class="leaf"><a href="/research/snowicepermafrost" title="Snow,Ice and Permafrost">Snow, Ice and Permafrost</a></li>
+<li class="leaf"><a href="/research/spacephysics" title="">Space Physics &amp; Aeronomy</a></li>
+<li class="leaf"><a href="/research/tectsed" title="">Tectonics &amp; Sedimentation</a></li>
+<li class="leaf last"><a href="/research/volcanology" title="">Volcanology</a></li>
+</ul></li>
+<li class="expanded"><a href="/dir" title="">PEOPLE</a><ul class="menu" style="visibility: hidden;"><li class="leaf first"><a href="/dir/advisory" title="Advisory Consulting Board">Advisory Consulting Board</a></li>
+<li class="leaf"><a href="/dir/admin" title="Admin Team">Administrative Team</a></li>
+<li class="leaf"><a href="/dir" title="Directory">Directory</a></li>
+<li class="leaf"><a href="/dir/endowment" title="Endowment Board">Endowment Board</a></li>
+<li class="leaf"><a href="/faculty" title="Faculty">Faculty</a></li>
+<li class="leaf"><a href="/dir/GIStaffCouncil" title="Staff Council">GI Staff Council</a></li>
+<li class="leaf"><a href="/dir/students" title="">Graduate Students</a></li>
+<li class="leaf"><a href="http://edir.alaska.edu" title="">UAF Campus Listing</a></li>
+<li class="leaf last"><a href="/dir/UnitAndGroup" title="">Unit &amp; Group</a></li>
+</ul></li>
+<li class="expanded"><a href="/facilities" title="">FACILITIES</a><ul class="menu" style="visibility: hidden;"><li class="leaf first"><a href="http://acuasi.alaska.edu" title="">Alaska Center for Unmanned Aircraft Systems Integration</a></li>
+<li class="leaf"><a href="http://climate.gi.alaska.edu/index.html" title="Alaska Climate Research Center">Alaska Climate Research Center</a></li>
+<li class="leaf"><a href="http://www.aeic.alaska.edu/" title="Alaska Earthquake Information Center">Alaska Earthquake Info Center</a></li>
+<li class="leaf"><a href="/facilities/asf" title="">Alaska Satellite Facility</a></li>
+<li class="leaf"><a href="/facilities/avo" title="Alaska Volcano Observatory">Alaska Volcano Observatory (AVO)</a></li>
+<li class="leaf"><a href="http://www.arsc.edu" title="">Arctic Region Supercomputer Center</a></li>
+<li class="leaf"><a href="/facilities/chaparral" title="Chaparral Physics">Chaparral Physics</a></li>
+<li class="leaf"><a href="/facilities/cigo" title="College International Geophysical Observatory">College Int&#039;l Geophysical Observatory</a></li>
+<li class="collapsed"><a href="/facilities/mather" title="">Mather Library</a></li>
+<li class="leaf"><a href="/facilities/pokerflat" title="Poker Flat Research Range">Poker Flat Research Range</a></li>
+<li class="leaf"><a href="/facilities/geochron" title="UAF Geochronology Facility">UAF Geochronology Facility</a></li>
+<li class="leaf"><a href="https://www.asf.alaska.edu/about/geodata-center/" title="">GeoData Center</a></li>
+<li class="leaf last"><a href="https://www.asf.alaska.edu/magnetometer/" title="">GI Magnetometer Array</a></li>
+</ul></li>
+<li class="expanded"><a href="/students" title="">STUDENTS</a><ul class="menu" style="visibility: hidden;"><li class="leaf first"><a href="/students/listing/alpha" title="Alphabetical Listing">Alphabetical Listing</a></li>
+<li class="leaf"><a href="/students/FundingInformation" title="Funding Information">Funding Information</a></li>
+<li class="leaf"><a href="/students/GeneralInformation" title="General Information">General Information</a></li>
+<li class="leaf"><a href="/students/listing/area" title="Graduate Students">Graduate Students by Area</a></li>
+<li class="leaf"><a href="/students/ResearchOpportunities" title="Research Opportunities">Research Opportunities</a></li>
+<li class="leaf"><a href="/students/SummerPrograms" title="Summer Programs">Summer Programs</a></li>
+<li class="leaf last"><a href="/students/undergraduates" title="GI Undergraduate Research Program">Undergraduates</a></li>
+</ul></li>
+<li class="expanded"><a href="/Administration" title="Administration">ADMINISTRATION</a><ul class="menu" style="visibility: hidden;"><li class="leaf first"><a href="/admin/business" title="">Business Office</a></li>
+<li class="leaf"><a href="http://crc.gi.alaska.edu" title="">Computer Resource Center</a></li>
+<li class="leaf"><a href="/admin/design" title="">Design Services</a></li>
+<li class="leaf"><a href="/admin/do" title="Director&#039;s Office">Director&#039;s Office</a></li>
+<li class="leaf"><a href="/admin/outreach" title="">GI Education Outreach</a></li>
+<li class="leaf"><a href="/admin/hr" title="">Human Resources</a></li>
+<li class="leaf last"><a href="/admin/operations" title="">Operations Office</a></li>
+</ul></li>
+<li class="expanded last"><a href="/about" title="">ABOUT US</a><ul class="menu" style="visibility: hidden;"><li class="leaf first"><a href="/about/AffiliatedOrganizations" title="Affiliated Organizations">Affiliated Organizations</a></li>
+<li class="leaf"><a href="/about/CampusMap" title="">Campus Map</a></li>
+<li class="leaf"><a href="/about/ContactInformation" title="">Contact Information</a></li>
+<li class="leaf"><a href="/about/CouncilAndTeams" title="Councils &amp; Teams">Councils &amp; Teams</a></li>
+<li class="leaf"><a href="/admin/Feedback" title="">Feedback</a></li>
+<li class="leaf last"><a href="/about/InternationalPolarYear" title="Historical Background">International Polar Year</a></li>
+</ul></li>
+</ul>
+        </div>
+        </div>
+      </div>
+      
+      <div id="content-wrapper">
+	<div id="slash-wrap">
+                	</div><!-- slash-wrap -->
+        <div class="clear"></div>
+                <div class="clear"></div>
+
+        <div id="content-bottom">
+          <!-- changed from "content". Div "maincontent" CSS displays full width, kicking out the rightside -->
+          <div id="maincontent">
+                                                    <div class="not-front not-logged-in page-auroraforecast no-sidebars">
+  <div class="aurora-forecast">
+  <div class="heading-group">
+    <div class="heading"><h2>Aurora Forecast for Friday, November 7, 2014</h2></div>
+    <div class="heading-right">
+      <div class="heading"><a href="/AuroraForecast/Alaska/2014/11/06" class="next-link">&lt;&lt; Previous</a></div>
+      <div class="heading"><a href="/AuroraForecast/Alaska/2014/11/08" class="next-link">Next &gt;&gt;</a></div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div class="sidebar-left">
+    <div class="block block-0">
+      <ul class="links"><li class="menu-2909 first"><a href="/AuroraForecast/CanISeeTheAurora" title="">Can I see the Aurora?</a></li>
+<li class="menu-2910"><a href="/AuroraForecast/SummerViewing" title="">Viewing the Aurora in the Northern Summer</a></li>
+<li class="menu-2911"><a href="/AuroraForecast/Interpreting" title="">Interpreting the Forecast</a></li>
+<li class="menu-2912"><a href="/AuroraForecast/TravelersGuide" title="">Traveler&#039;s Guide to the Aurora</a></li>
+<li class="menu-2913"><a href="http://www.gi.alaska.edu/AuroraAlerts" title="">Online Aurora Forum</a></li>
+<li class="menu-2915"><a href="/AuroraForecast/Links" title="">Aurora Links</a></li>
+<li class="menu-2914"><a href="http://www.gi.alaska.edu/mailman/listinfo/gse-aa" title="">Aurora Alerts Sign-up</a></li>
+<li class="menu-2916"><a href="http://odin.gi.alaska.edu/FAQ/" title="">FAQ</a></li>
+<li class="menu-2945 last"><a href="/AuroraForecast/MobilePages" title="Aurora Forecast Mobile Forecast">Mobile Apps</a></li>
+</ul>    </div>
+    <div class="block block-1 map-list">
+      <h3>Select a Map</h3><ul class="map"><li><a href="/AuroraForecast/Alaska/2014/11/07"><img src="/sites/www.gi.alaska.edu/modules/local/auroraforecast/images/icon_Alaska.png" class="nowidth"></a></li><li><a href="/AuroraForecast/NorthAmerica/2014/11/07"><img src="/sites/www.gi.alaska.edu/modules/local/auroraforecast/images/icon_NorthAmerica.png" class="nowidth"></a></li><li><a href="/AuroraForecast/Europe/2014/11/07"><img src="/sites/www.gi.alaska.edu/modules/local/auroraforecast/images/icon_Europe.png" class="nowidth"></a></li><li><a href="/AuroraForecast/NorthPolar/2014/11/07"><img src="/sites/www.gi.alaska.edu/modules/local/auroraforecast/images/icon_World.png" class="nowidth"></a></li><li><a href="/AuroraForecast/SouthPolar/2014/11/07"><img src="/sites/www.gi.alaska.edu/modules/local/auroraforecast/images/icon_World_S.png" class="nowidth"></a></li></ul>
+    </div>
+    <div class="clear"></div>
+    <div class="block block-2">
+      <h3>The Solar Wind</h3>    </div>
+  </div><!-- /sidebar-left -->
+
+
+  <div class="main-wrapper">
+    <div class="main">
+              <div class="image"><img src="/sites/www.gi.alaska.edu/modules/local/auroraforecast/images/Alaska_3.png" /></div>
+        <div class="levels"><span class="level-3l">Moderate:</span> 0 1 2 <span class="level-3n">3</span> 4 5 6 7 8 9</div>
+                  <p><em>Forecast:</em> Auroral activity will be moderate.  Weather permitting, moderate displays will be visible overhead from Barrow to as far south as Talkeetna and visible low on the horizon as far south as Bethel, Soldotna and southeast Alaska.</p>
+                           <p><em>Forecaster Comments:</em> 
+</p>
+                        <div class="print-forecast">
+          <p class="print">
+          <a href="PRINTME"><img src="/sites/www.gi.alaska.edu/modules/local/auroraforecast/images/printer-icon.jpg">Print <strong>Forecast</strong></a>
+        </div>
+            <div class="PotD">
+              </div><!-- /PotD -->
+    </div><!-- /main -->
+  </div><!-- /main-wrapper -->
+
+  <div class="sidebar-right">
+    <div class="clear"></div>
+    <div class="block block-3">
+      <h3>Short term (1hr) Aurora Forecast</h3>Nov 08, 2014 00:00 GMT<br />(Nov 07, 2014 15:00 AST)<h4><span class="level-3l">Moderate:</span></h4><a href="/sites/www.gi.alaska.edu/modules/local/auroraforecast/images/Alaska_3.png" rel="lightbox[][Short Term Forecast made Nov 07, 2014 15:00 AST]"><img src="/sites/www.gi.alaska.edu/modules/local/auroraforecast/images/shortterm/Alaska_3.png" /></a>    </div>
+    <div class="block block-2">
+      <h3>Current Aurora Activity</h3><a href="http://www.swpc.noaa.gov/pmap/gif/pmapN.gif" rel="lightbox[][Statistical Auroral Oval]"><img src="http://www.swpc.noaa.gov/pmap/gif/pmapN.gif" /></a><br />NOAA/POES    </div>
+    <div class="block block-4">
+      <h3>Auroral Activity by Solar Rotation</h3><a href="http://www2.gi.alaska.edu/images/plot_ace.png" rel="lightbox[][Representation of Kp by Solar Rotation]"><img src="http://www2.gi.alaska.edu/images/plot_ace.png" /></a><br />Interpret the Solar Wind/Geomagnetic Activity Plot    </div>
+  </div><!-- sidebar-right -->
+
+  <div class="clear"></div>
+</div><!-- /aurora-forecast -->
+<pre>
+</pre>
+
+  </div>          </div>
+          <div class="clear"></div>
+        </div>
+
+        <div class="clear"></div>
+        
+      </div><!-- end of content-wrapper -->
+        <div id="content-verybottom">
+          <div id="bottom-middle" class="not-front not-logged-in page-auroraforecast no-sidebars"><div id="block-menu-menu-gi-groups" class="block block-menu">
+
+  <h2>GI Groups Menu</h2>
+
+  <div class="content"><ul class="menu"><li class="leaf first"><a href="/research/atmo" title="">Atmospheric Science</a></li>
+<li class="leaf"><a href="/research/remotesensing" title="">Remote Sensing</a></li>
+<li class="leaf"><a href="/research/seismo" title="">Seismology</a></li>
+<li class="leaf"><a href="/research/snowicepermafrost" title="">Snow, Ice &amp; Permafrost</a></li>
+<li class="leaf"><a href="/research/spacephysics" title="">Space Physics &amp; Aeronomy</a></li>
+<li class="leaf"><a href="/research/tectsed" title="">Tectonics &amp; Sedimentation</a></li>
+<li class="leaf last"><a href="/research/volcanology" title="">Volcanology</a></li>
+</ul></div>
+</div>
+<div id="block-block-1" class="block block-block">
+
+
+  <div class="content"><p>UAF is an AA/EO employer and educational institution. Last update Winter 2010 by Webmaster.<br />Copyright © 2010 Geophysical Institute, University of Alaska Fairbanks.</p>
+</div>
+</div>
+</div>        </div>
+          <div id="footer">
+                        <div id="footer-left"><div id="block-block-2" class="block block-block">
+
+
+  <div class="content"><p class="gi-footer">For general information, please contact the<br /> <span class="spamspan"><span class="u">info</span> [at] <span class="d">gi [dot] alaska [dot] edu</span><span class="t"> (Geophysical Institute)</span></span><br />Phone: (907) 474-7558<br /> 903 Koyukuk Drive, Univ. of Alaska<br />Fairbanks, AK 99775-7320</p>
+</div>
+</div>
+</div>
+            <div class="fasel"></div>
+            <div id="footer-right"><div id="block-block-3" class="block block-block">
+
+
+  <div class="content"><div style="float: left;">
+<div style="float: left;">
+    <a href="http://www.facebook.com/pages/UAF-Geophysical-Institute/116012105143046" target="_blank" title="Visit our Facebook page"><br />
+      <img src="/files/facebook-32.png" /><br />
+    </a>
+  </div>
+<div style="float: left;">
+    <a href="http://www.youtube.com/user/GeophysInstitute" target="_blank" title="Visit our YouTube channel"><br />
+      <img src="/files/youtube.png" width="28" height="28" style="margin-top: 2px;" /><br />
+    </a>
+  </div>
+<div style="float: left;">
+    <a href="https://twitter.com/UAFGI" target="_blank" title="Visit our Twitter Feed"><br />
+      <img src="/files/Twitter_logo_32.png" height="29" style="margin-left: 3px; margin-top: 2px;" /><br />
+    </a>
+  </div>
+<div style="float: left;">
+    <a href="http://www.pinterest.com/UAFGeophysical/" target="_blank" title="Visit our Pinterest page"><br />
+      <img src="/files/pinterest.png" height="31" style="margin-left: 3px; margin-top: 1px;" /><br />
+    </a>
+  </div>
+<p> &nbsp; </p></div>
+<div style="float: right;"><a href="http://www.alaska.edu" title="Visit the University of Alaska"><img src="/files/ua_logo_button.png" alt="UA website" width="99" height="75" style="top: 20px;" /></a> &nbsp;
+<p>&nbsp;</p>
+</div>
+<div style="float: right;">
+<p><a href="http://www.uaf.edu" title="Visit UAF"><img src="/files/uaf_logo_button.png" alt="UA website" width="131" height="40" /></a></p>
+</div>
+</div>
+</div>
+</div>
+            <div class="clear"></div>
+                        <div class="footer-message"></div>
+          </div>
+    </div><!-- end of container -->
+    </div><!-- end of outer-container -->
+  </body>
+    </html>
+<!-- Page cached by Boost @ 2014-11-07 15:22:03, expires @ 2014-11-07 15:52:03 -->
